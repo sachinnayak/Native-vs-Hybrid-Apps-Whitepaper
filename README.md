@@ -6,7 +6,7 @@
 * Mobile Application Development Approaches
   * Native Applications
   * Hybrid Applications
-** Comparison
+* Comparison of different approaches
   * Features
   * Look and Feel 
   * Access to device APIs

@@ -4,8 +4,8 @@
 
 * Purpose of the whitepaper(#purpose)
 * Mobile Application Development Approaches
-* 	Native Applications
-* 	Hybrid Applications
+** Native Applications
+** Hybrid Applications
 ** Comparison
 * Features
 ** Look and Feel 

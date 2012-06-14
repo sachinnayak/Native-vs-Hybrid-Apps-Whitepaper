@@ -22,7 +22,7 @@
   
 ## <a id=purpose></a> Purpose of the document 
 
-At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own limitations and benefits. But everytime it's very difficult to choose the right one to go because of many factors from inside: budget, project timeframe, target audience, number of platforms to support. The purpose of this document is 
+At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own limitations and benefits. But everytime it's very difficult to choose the right one to go because of many factors from inside: budget, project timeframe, target audience, number of platforms to support. The purpose of this document is to provide an overview of all existing approaches, difference between them, their pros and cons and to give an answers on the common questions and define when to use each of the approaches.
   
 
 ## <a id=approaches></a> Mobile Application Development Approaches 

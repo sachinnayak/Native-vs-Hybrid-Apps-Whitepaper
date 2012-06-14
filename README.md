@@ -18,10 +18,11 @@
 	* [Testing](#testing)
 	* [Maintenance and Updates](#updates)
 * **[Choosing the Right Approach](#right-approach)**
+* **[Helpful Resources](#sources)**
   
 ## <a id=purpose></a> Purpose of the document 
 
-At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own drawbacks and benefits. But everytime it's very difficult to choose the right one to go. The purpose of this document is 
+At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own limitations and benefits. But everytime it's very difficult to choose the right one to go because of many factors from inside: budget, project timeframe, target audience, number of platforms to support. The purpose of this document is to provide an overview of all existing approaches, difference between them, their pros and cons and to give an answers on the common questions and define when to use each of the approaches.
   
 
 ## <a id=approaches></a> Mobile Application Development Approaches 
@@ -52,7 +53,6 @@ PhoneGap is an example of a framework that allows you turn a web app into a nati
 ###<a id=comparison></a>Comparison of different approaches
  
 Native excels in performance and device access, but suffers in cost and updates. Web is much simpler, less expensive and easier to update, but is currently limited in functionality and cannot achieve the exceptional level of user experience that can be obtained using native API calls. The hybrid approach provides a middle ground which, in many situations, is the best of both worlds, especially if the developer is targeting multiple operating systems.
-
 
 
 

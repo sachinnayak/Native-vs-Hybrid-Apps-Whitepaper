@@ -5,8 +5,8 @@
 * **[Purpose of the document](#purpose)**
 * **[Mobile Application Development Approaches](#approaches)**
 	* [Native Applications](#native)
-	* [Hybrid Applications](#hybrid)
 	* [Web Applications](#webapps)
+	* [Hybrid Applications](#hybrid)
 	* [Comparison of different approaches](#comparison)
 * **[Features](#features)**
 	* [Look and Feel](#looknfeel)
@@ -28,7 +28,14 @@ At this moment we have a two different approaches for creating mobile applicatio
 
 ### <a id=native></a> Native Applications
 
-Native refers to building an app in a device’s native programming language. For iOS devices this means Objective-C, and for Android it’s Java. Native apps are typically fast, reliable, and can access all the the device’s hardware (camera, accelerometer, compass, etc). Because of this increased performance, mobile games are usually built as native apps. It also means, though, that your app is tied to the platform it is built for. An iOS app, for example, won’t run on an Android device without first re-coding the entire app to Java.
+Native applications are written in a device’s native programming language and are built into binary executable files that are installed and run on the device. The most popular way to download a native app is by visiting an application store such as Apple’s App Store, Android’s Marketplace, or BlackBerry’s App World, but other methods exist and are sometimes provided by the mobile vendor.
+
+Native apps are typically fast, reliable, and can access all the the device’s hardware (camera, accelerometer, compass, etc). Because of this increased performance, mobile games are usually built as native apps. It also means, though, that your app is tied to the platform it is built for. An iOS app, for example, won’t run on an Android device without first re-coding the entire app to Java.
+
+### Web applications
+
+Modern mobile devices consist of powerful browsers that support many new HTML5 capabilities, CSS3 and advanced JavaScript. With recent advancements in this front, HTML5 signals the transition of this technology from a “page definition language” into a powerful development standard for rich, browser-based applications.
+
 
 
 ### <a id=hybrid></a> Hybrid Applications

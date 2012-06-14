@@ -7,18 +7,18 @@
 	* [Native Applications](#native)
 	* [Web Applications](#webapps)
 	* [Hybrid Applications](#hybrid)
-	* [Comparison of different approaches](#comparison)
+	* [Comparison of different approaches](#comparison) - Pasha
 * **[Features](#features)**
-	* [Look and Feel](#looknfeel)
-	* [Access to device specific APIs](#apis)
-	* [Push notifications](#push-notifications)
-	* [Performance](#performance)
-	* [Security](#security)
-	* [Monetization](#monetization)
-	* [Testing](#testing)
-	* [Maintenance and Updates](#updates)
+	* [Look and Feel](#looknfeel) - Pasha
+	* [Access to device specific APIs](#apis) - Pasha
+	* [Push notifications](#push-notifications) - Ilya
+	* [Performance](#performance) - Ilya
+	* [Security](#security) - Pasha
+	* [Monetization](#monetization)  - Ilya
+	* [Testing](#testing)  - Ilya
+	* [Maintenance and Updates](#updates) - Ilya
 * **[Choosing the Right Approach](#right-approach)**
-* **[Helpful Resources](#sources)**
+* **[Helpful Resources](#sources)** - Ilya
   
 ## <a id=purpose></a> Purpose of the document 
 

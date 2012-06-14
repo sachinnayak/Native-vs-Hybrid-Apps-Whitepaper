@@ -18,7 +18,9 @@
 	* [Testing](#testing)
 	* [Maintenance and Updates](#updates)
 * **[Choosing the Right Approach](#right-approach)**
+* **[Helpful Resources](#sources)**
   
+<<<<<<< HEAD
 ## <a id=purpose></a> Purpose of the document 
 
 At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own drawbacks and benefits. But everytime it's very difficult to choose the right one to go. The purpose of this document is 
@@ -46,3 +48,9 @@ PhoneGap is an example of a framework that allows you take a web app and turn it
 
 
 
+=======
+## Purpose of the document <a id="purpose"></a>
+
+At this moment we have a two different approaches for creating mobile applications: native and hybrid. Each of these approaches has its own limitations and benefits. But everytime it's very difficult to choose the right one to go because of many factors from inside: budget, project timeframe, target audience, number of platforms to support. The purpose of this document is 
+  
+>>>>>>> Purpose

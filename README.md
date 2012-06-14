@@ -34,15 +34,25 @@ Native apps are typically fast, reliable, and can access all the the device’s 
 
 ### Web applications
 
-Modern mobile devices consist of powerful browsers that support many new HTML5 capabilities, CSS3 and advanced JavaScript. With recent advancements in this front, HTML5 signals the transition of this technology from a “page definition language” into a powerful development standard for rich, browser-based applications.
+Modern mobile devices consist of powerful browsers that support many new HTML5 capabilities, CSS3 and advanced JavaScript.
 
+A few examples of the potential of HTML5 include advanced UI components, access to rich media types, geo-location services and offline availability. Using these features and many more that are under development, developers are able to create advanced applications using nothing but web technologies.
 
+In certain cases it is a good idea to create a rich website that looks and behaves like an application. A browser bookmark to such a service can be placed on a device homescreen and user will be able to launch it like any other application.
 
 ### <a id=hybrid></a> Hybrid Applications
 
-A hybrid app is built using web technologies, and then wrapped in a platform-specific shell that allows it to be installed just like a native app. Thus it is sold/accessed through the device’s app store.
+A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app. Thus it is sold/accessed through the device’s app store. 
 
-PhoneGap is an example of a framework that allows you take a web app and turn it into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
+For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
+
+PhoneGap is an example of a framework that allows you turn a web app into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
+
+
+###<a id=comparison></a>Comparison of different approaches
+ 
+Native excels in performance and device access, but suffers in cost and updates. Web is much simpler, less expensive and easier to update, but is currently limited in functionality and cannot achieve the exceptional level of user experience that can be obtained using native API calls. The hybrid approach provides a middle ground which, in many situations, is the best of both worlds, especially if the developer is targeting multiple operating systems.
+
 
 
 

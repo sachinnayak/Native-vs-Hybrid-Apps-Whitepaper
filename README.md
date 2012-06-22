@@ -10,14 +10,14 @@
 * **[Features](#features)**
 	* [Look and Feel](#looknfeel) - Pasha
 	* [Access to device specific APIs](#apis) - Pasha
-	* [Push notifications](#push-notifications) - Ilya
 	* [Performance](#performance) - Ilya
 	* [Security](#security) - Pasha
+	* [Push notifications](#push-notifications) - Ilya
 	* [Monetization](#monetization)  - Ilya
 	* [Testing](#testing)  - Ilya
 	* [Maintenance and Updates](#updates) - Ilya
-* **[Choosing the Right Approach](#right-approach)**
-* **[Helpful Resources](#sources)** - Ilya
+* **[Choosing the Right Approach](#right-approach)** - Ilya
+* **[Helpful Sources](#sources)**
   
 ## <a id=purpose></a> Purpose of the document 
 
@@ -50,5 +50,38 @@ It is sold/accessed through the device’s app store.
  
 Native excels in performance and device access, but suffers in cost and updates. Web is much simpler, less expensive and easier to update, but is currently limited in functionality and cannot achieve the exceptional level of user experience that can be obtained using native API calls. The hybrid approach provides a middle ground which, in many situations, is the best of both worlds, especially if the developer is targeting multiple operating systems.
 
+## <a id=performance></a> Performance
+Yes, native applications have snappier animations, transitions and faster load time, but it's more noticable on slow cheap devices (for example iPhone 3g or old Androids). As for hybrids 
 
+Native applications can store more offline data. 
+
+Native apps can use such performance accelerators like multi-threading and GPU acceleration.
+
+When perfromance really matters.
+
+## <a id=push-notifications></a> Push notifications
+What are push notifications and how it works
+
+What are the possible ways to do it
+
+Solutions
+
+## <a id=monetization></a> Monetization
+What are in-app purchases, strategies of monetization
+
+SOlutions
+
+## <a id=testing></a> Testing
+Different amount of devices needed, becuase the web is asshole
+
+## <a id=updates></a> Maintenance and Updates
+Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).
+
+## <a id=sources></a> Helpful Sources
+* [Worklight: HTML5, Hybrid or Native Mobile App Development](http://www.worklight.com/assets/files/HTML5,%20Hybrid%20or%20Native%20Mobile%20App%20Development.pdf)
+* [Hybrid vs. Native vs. Mobile web comparison chart](http://www.mrc-productivity.com/blog/2012/03/hybrid-vs-native-vs-mobile-web-comparison-chart/)
+* [Native, Native, Web and Hybrid Apps – Understanding the Difference](http://www.xcubelabs.com/blog/native-web-and-hybrid-apps-understanding-the-difference/)
+* [Native, Hybrid or Web Apps?](http://buildmobile.com/native-hybrid-or-web-apps/)
+* [Hybrid HTML5 Apps Are Less Costly to Develop Than Native](http://www.readwriteweb.com/mobile/2012/01/hybrid-html5-apps-are-more-les.php)
+* [HTML5 vs. Native: The Mobile App Debate](http://www.html5rocks.com/en/mobile/nativedebate/)
 

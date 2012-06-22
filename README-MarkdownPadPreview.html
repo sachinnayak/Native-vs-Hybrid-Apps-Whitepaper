@@ -282,15 +282,15 @@ button::-moz-focus-inner {
 <ul>
 <li><a href="#looknfeel">Look and Feel</a> - Pasha</li>
 <li><a href="#apis">Access to device specific APIs</a> - Pasha</li>
-<li><a href="#push-notifications">Push notifications</a> - Ilya</li>
 <li><a href="#performance">Performance</a> - Ilya</li>
 <li><a href="#security">Security</a> - Pasha</li>
+<li><a href="#push-notifications">Push notifications</a> - Ilya</li>
 <li><a href="#monetization">Monetization</a>  - Ilya</li>
 <li><a href="#testing">Testing</a>  - Ilya</li>
 <li><a href="#updates">Maintenance and Updates</a> - Ilya</li>
 </ul></li>
-<li><strong><a href="#right-approach">Choosing the Right Approach</a></strong></li>
-<li><strong><a href="#sources">Helpful Resources</a></strong> - Ilya</li>
+<li><strong><a href="#right-approach">Choosing the Right Approach</a></strong> - Ilya</li>
+<li><strong><a href="#sources">Helpful Sources</a></strong></li>
 </ul>
 
 <h2><a id=purpose></a> Purpose of the document</h2>
@@ -384,9 +384,52 @@ It is sold/accessed through the device’s app store. </p>
 
 <p>An operating system like Android provides different ways for apps to interact with users, and indeed, with other apps. You have active widgets on the homepage. You have notifications, which show up in the device's status bar. And you have intents, which allow your app to announce itself as providing a general service which other apps might require on occasion.</p>
 
-<p>It's true that many in-app features are simply beyond reach for an HTML5 app. Inside a webpage, which a web application basically is, a developer is restricted to the APIs the web browser provides.  Web standards are evolving rapidly, and modern mobile browsers are keeping pace. Offline storage, geolocation, canvas graphics, and video/audio playback all enjoy widespread support among modern smarpthones, for example. Browser access to camera, battery status, phone contact list, SMS and other facilities are currently being developed and implemented.</p>
+<p>It's true that many in-app features are simply beyond reach for an HTML5 app. Inside a webpage, which a web application basically is, a developer is restricted to the APIs the web browser provides.  Web standards are evolving rapidly, and modern mobile browsers are keeping pace. Offline storage, geolocation, canvas graphics, and video/audio playback all enjoy widespread support among modern smarpthones, for example. Browser access to camera, battery status, phone contact list, SMS and other facilities are currently being developed and implemented, but it will take some time before we can rely on these features.</p>
 
-<p>But for the time being we need the native wrapper libraries like Phonegap to provide the functionality. It fills the gap by exposing native features as web services, which the web view calls using a standard networking API. When you build a hybrid app like this, you're also able to hook into those platform features like widgets, notifications, and intents. </p>
+<p>For the time being we need the native wrapper libraries like Phonegap to provide access to device APIs for hybrid applications. They fill the gap by exposing native features as web services, which the web view calls using a standard networking API. When you build a hybrid app like this, you're also able to hook into those platform features like widgets, notifications, and intents. </p>
+
+<h2><a id=performance></a> Performance</h2>
+
+<p>Yes, native applications have snappier animations, transitions and faster load time, but it's more noticable on slow cheap devices (for example iPhone 3g or old Androids). As for hybrids </p>
+
+<p>Native applications can store more offline data. </p>
+
+<p>Native apps can use such performance accelerators like multi-threading and GPU acceleration.</p>
+
+<p>When perfromance really matters.</p>
+
+<h2><a id=push-notifications></a> Push notifications</h2>
+
+<p>What are push notifications and how it works</p>
+
+<p>What are the possible ways to do it</p>
+
+<p>Solutions</p>
+
+<h2><a id=monetization></a> Monetization</h2>
+
+<p>What are in-app purchases, strategies of monetization</p>
+
+<p>SOlutions</p>
+
+<h2><a id=testing></a> Testing</h2>
+
+<p>Different amount of devices needed, becuase the web is asshole</p>
+
+<h2><a id=updates></a> Maintenance and Updates</h2>
+
+<p>Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).</p>
+
+<h2><a id=sources></a> Helpful Sources</h2>
+
+<ul>
+<li><a href="http://www.worklight.com/assets/files/HTML5,%20Hybrid%20or%20Native%20Mobile%20App%20Development.pdf">Worklight: HTML5, Hybrid or Native Mobile App Development</a></li>
+<li><a href="http://www.mrc-productivity.com/blog/2012/03/hybrid-vs-native-vs-mobile-web-comparison-chart/">Hybrid vs. Native vs. Mobile web comparison chart</a></li>
+<li><a href="http://www.xcubelabs.com/blog/native-web-and-hybrid-apps-understanding-the-difference/">Native, Native, Web and Hybrid Apps – Understanding the Difference</a></li>
+<li><a href="http://buildmobile.com/native-hybrid-or-web-apps/">Native, Hybrid or Web Apps?</a></li>
+<li><a href="http://www.readwriteweb.com/mobile/2012/01/hybrid-html5-apps-are-more-les.php">Hybrid HTML5 Apps Are Less Costly to Develop Than Native</a></li>
+<li><a href="http://www.html5rocks.com/en/mobile/nativedebate/">HTML5 vs. Native: The Mobile App Debate</a></li>
+</ul>
 
 <p><style>
 th { text-align: left }

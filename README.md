@@ -11,7 +11,7 @@
 	* [Look and Feel](#looknfeel) - Pasha
 	* [Access to device specific APIs](#apis) - Pasha
 	* [Performance](#performance) - Ilya
-	* [Security](#security) - Pasha
+	* [Security](#security) - Ilya
 	* [Push notifications](#push-notifications) - Ilya
 	* [Monetization](#monetization)  - Ilya
 	* [Testing](#testing)  - Ilya

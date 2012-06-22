@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 5px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 16px;
+    padding: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 22px;
+    margin: 20px 0 6px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+a:visited {
+    color: purple;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+    margin-left: 44px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 540px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 2em;
+    margin-left:0;
+    max-width: 476px;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+}
+/* override default chrome & firefox settings */
+input:not([type="image"]), textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+label,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+input[type=text],
+input[type=password],
+textarea,
+select {
+  display: inline-block;
+  width: 210px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+select, input[type=file] {
+  height: 27px;
+  line-height: 27px;
+}
+textarea {
+  height: auto;
+}
+
+/* grey out placeholders */
+:-moz-placeholder {
+  color: #bfbfbf;
+}
+::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* buttons */
+button {
+  display: inline-block;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  background-image: linear-gradient(top, #049cdb, #0064cd);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #004b9a;
+  border-bottom-color: #003f81;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  color: #fff;
+  background-position: 0 -15px;
+  text-decoration: none;
+}
+button:active {
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) */
+</style>
+</head>
+<body>
+<h1>Native vs Hybrid Applications</h1>
+
+<h2>Contents</h2>
+
+<ul>
+<li><strong><a href="#purpose">Purpose of the document</a></strong></li>
+<li><strong><a href="#approaches">Mobile Application Development Approaches</a></strong>
+<ul>
+<li><a href="#native">Native Applications</a></li>
+<li><a href="#hybrid">Hybrid Applications</a></li>
+<li><a href="#comparison">Comparison of different approaches</a> - Pasha</li>
+</ul></li>
+<li><strong><a href="#features">Features</a></strong>
+<ul>
+<li><a href="#looknfeel">Look and Feel</a> - Pasha</li>
+<li><a href="#apis">Access to device specific APIs</a> - Pasha</li>
+<li><a href="#push-notifications">Push notifications</a> - Ilya</li>
+<li><a href="#performance">Performance</a> - Ilya</li>
+<li><a href="#security">Security</a> - Pasha</li>
+<li><a href="#monetization">Monetization</a>  - Ilya</li>
+<li><a href="#testing">Testing</a>  - Ilya</li>
+<li><a href="#updates">Maintenance and Updates</a> - Ilya</li>
+</ul></li>
+<li><strong><a href="#right-approach">Choosing the Right Approach</a></strong></li>
+<li><strong><a href="#sources">Helpful Resources</a></strong> - Ilya</li>
+</ul>
+
+<h2><a id=purpose></a> Purpose of the document</h2>
+
+<p>There are two different approaches for creating mobile applications: native and hybrid. Each of them has its own limitations and benefits. Many factors influence the choice of the best approach: budget, functionality, project timeframe, target audience, number of platforms to support. </p>
+
+<p>The purpose of this document is to provide an overview of all existing approaches, determine their pros and cons, give answers to the common questions and define when to use each of the approaches.</p>
+
+<h2><a id=approaches></a> Mobile Application Development Approaches</h2>
+
+<h3><a id=native></a> Native Applications</h3>
+
+<p>Native applications are written in a device’s native programming language and are built into binary executable files that are installed and run on the device. The most popular way to download a native app is by visiting an application store such as Apple’s App Store, Android’s Marketplace, or BlackBerry’s App World, but other methods exist and are sometimes provided by the mobile vendor.</p>
+
+<p>Native apps are typically fast, reliable, and can access all the the device’s hardware (camera, accelerometer, compass, etc). Because of this increased performance, mobile games are usually built as native apps. It also means, though, that your app is tied to the platform it is built for. An iOS app, for example, won’t run on an Android device without first re-coding the entire app to Java.</p>
+
+<h3><a id=hybrid></a> Hybrid Applications</h3>
+
+<p>Modern mobile devices provide web browsers that are advanced enough to be an engine for applications. Advancements in development of HTML, CSS and Javascript allow to create UI components, access to rich media types, geo-location services and offline availability. Rich websites that looks and behaves like an application and uses these advanced features are often referred to as web applications. A browser bookmark to such a service can be placed on a device homescreen and user will be able to launch it like any other application.</p>
+
+<p>A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities. </p>
+
+<p>For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.</p>
+
+<p>PhoneGap is an example of a framework that allows you turn a web app into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
+It is sold/accessed through the device’s app store. </p>
+
+<h3><a id=comparison></a>Comparison of different approaches</h3>
+
+<p>Native excels in performance and device access, but suffers in cost and updates. Web is much simpler, less expensive and easier to update, but is currently limited in functionality and cannot achieve the exceptional level of user experience that can be obtained using native API calls. The hybrid approach provides a middle ground which, in many situations, is the best of both worlds, especially if the developer is targeting multiple operating systems.</p>
+
+<table>
+ <tr>
+   <th> Features
+   <th> Native
+   <th> Hybrid
+ <tr>
+ <tr>
+    <th> Development language
+    <td> Native only
+    <td> Native and web / Web only
+ </tr>
+ <tr>
+    <th> Code portability
+    <td> None
+    <td> High
+ </tr>
+ <tr>
+    <th> Device specific features
+    <td> High
+    <td> Moderate
+ </tr>
+ <tr>
+    <th> Access to native APIs
+    <td> High
+    <td> Moderate
+ </tr>
+ <tr>
+    <th> Advanced graphics
+    <td> High
+    <td> Moderate
+ </tr>
+ <tr>
+    <th> UI/UX
+    <td> High
+    <td> Moderate
+ </tr>
+ <tr>
+    <th> Upgrade flexibility
+    <td> Low <br><small>(always through appstore)</small>
+    <td> Moderate <br><small>(generally through appstore)</small>
+ </tr> 
+ </tbody>
+</table>
+
+<h2><a id=features></a> Features</h2>
+
+<h3>Look and Feel</h3>
+
+<p>One of the defining features of any platform is its look and feel. Users come to expect controls to be presented consistently and manipiulated in the same way. There are certain idioms which vary from platform to platform, e.g. what happens when the user performs a "long hold" (keep touching an element for several seconds)? Plaforms have standard idioms for such things, and you can't satisfy them all with a single HTML5 app.</p>
+
+<p>Furthermore, platform look-and-feel is orchestrated by the platform's native software library, whose widgets encapsulate the kind of look and feel users expect. You get a lot of the expected look-and-feel "for free" just by using the native toolkit.</p>
+
+<p>In a hybrid app you'll most likely have to create UI elements that look the same across platforms. This is not necessarily a bad thing, but that means that adhering to Human Interface Guidelines (HIG) of each necessary platform will be not possible or very hard.</p>
+
+<p>When developing a hybrid app you are restricted to CSS and Javascript features native device browsers support. Many interface elements with native-like behavior can be created using Javascript, but they'll never look as rich and fast as native.</p>
+
+<h2><a id=apis></a> Access to device specific APIs</h2>
+
+<p>Native is called so for a reason. Native apps have direct access to all hardware and system-level features. They can easily get hold of swipe events, mutlitouch even, for those platforms which support it. They can typically act on hard keys being pressed, like Android's search button and volume controls. They can access hardware too, like GPS and camera.</p>
+
+<p>An operating system like Android provides different ways for apps to interact with users, and indeed, with other apps. You have active widgets on the homepage. You have notifications, which show up in the device's status bar. And you have intents, which allow your app to announce itself as providing a general service which other apps might require on occasion.</p>
+
+<p>It's true that many in-app features are simply beyond reach for an HTML5 app. Inside a webpage, which a web application basically is, a developer is restricted to the APIs the web browser provides.  Web standards are evolving rapidly, and modern mobile browsers are keeping pace. Offline storage, geolocation, canvas graphics, and video/audio playback all enjoy widespread support among modern smarpthones, for example. Browser access to camera, battery status, phone contact list, SMS and other facilities are currently being developed and implemented.</p>
+
+<p>But for the time being we need the native wrapper libraries like Phonegap to provide the functionality. It fills the gap by exposing native features as web services, which the web view calls using a standard networking API. When you build a hybrid app like this, you're also able to hook into those platform features like widgets, notifications, and intents. </p>
+
+<p><style>
+th { text-align: left }
+th, td { padding: .6em }
+</style></p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

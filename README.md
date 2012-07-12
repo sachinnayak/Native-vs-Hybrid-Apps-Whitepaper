@@ -101,11 +101,11 @@ It is sold/accessed through the device’s app store.
 
  One of the defining features of any platform is its look and feel. Users come to expect controls to be presented consistently and manipiulated in the same way. There are certain idioms which vary from platform to platform, e.g. what happens when the user performs a "long hold" (keep touching an element for several seconds)? Plaforms have standard idioms for such things, and you can't satisfy them all with a single HTML5 app.
 
- Furthermore, platform look-and-feel is orchestrated by the platform's native software library, whose widgets encapsulate the kind of look and feel users expect. You get a lot of the expected look-and-feel "for free" just by using the native toolkit.
+ Furthermore, platform look-and-feel is determined by the platform's native software library, whose widgets encapsulate the kind of look and feel users expect. You get a lot of the expected look-and-feel "for free" just by using the native toolkit.
 
- In a hybrid app you'll most likely have to create UI elements that look the same across platforms. This is not necessarily a bad thing, but that means that adhering to Human Interface Guidelines (HIG) of each necessary platform will be not possible or very hard.
+ In a hybrid app you'll most likely have to create UI elements that look the same across platforms. This is not necessarily a bad thing, but that means that adhering to Human Interface Guidelines (HIG) of each necessary platform will be not possible or rather hard.
 
- When developing a hybrid app you are restricted to CSS and Javascript features native device browsers support. Many interface elements with native-like behavior can be created using Javascript, but they'll never look as rich and fast as native.
+ When developing a hybrid app you are restricted to CSS and Javascript features native browsers support. Many interface elements with native-like behavior can be created using Javascript, but they'll never look as rich and fast as native.
 
 
 
@@ -117,35 +117,38 @@ It is sold/accessed through the device’s app store.
 
  It's true that many in-app features are simply beyond reach for an HTML5 app. Inside a webpage, which a web application basically is, a developer is restricted to the APIs the web browser provides.  Web standards are evolving rapidly, and modern mobile browsers are keeping pace. Offline storage, geolocation, canvas graphics, and video/audio playback all enjoy widespread support among modern smarpthones, for example. Browser access to camera, battery status, phone contact list, SMS and other facilities are currently being developed and implemented, but it will take some time before we can rely on these features.
 
- For the time being we need the native wrapper libraries like Phonegap to provide access to device APIs for hybrid applications. They fill the gap by exposing native features as web services, which the web view calls using a standard networking API. When you build a hybrid app like this, you're also able to hook into those platform features like widgets, notifications, and intents. 
+ For the time being we need the native wrapper libraries like Phonegap (a.k.a. Cordova) to provide access to device APIs for hybrid applications. They fill the gap by exposing native features as web services, which the web view calls using a standard networking API. When you build a hybrid app like this, you're also able to hook into those platform features like widgets, notifications, and intents. 
 
 
 ## <a id=performance></a> Performance
-Yes, native applications have snappier animations, transitions and faster load time, but it's more noticable on slow cheap devices (for example iPhone 3g or old Androids). As for hybrids 
 
-Native applications can store more offline data. 
+It's evident that native applications have the benefit of accessing device hadrware directly, GPU acceleration, multithreading other performance boosters, and thus will always be faster than hybrid apps which are confined to web browser wrapper environment.  Native applications have snappier animations, transitions and faster load time, but actually it's more noticeable on slow cheap devices (for example iPhone 3G or old Androids). So if you are developing an application where performance is critical like bleeding-edge 3D games, your only option is to go native.
 
-Native apps can use such performance accelerators like multi-threading and GPU acceleration.
+The performance of hybrid apps is not great, but often it's not that important for the kind of tasks they do, because majority of mobile apps are fundamentally information-based: news, mail, timetables, social networks, etc. 
 
-When perfromance really matters.
+Web browsers in general and mobile browsers in particular start to gain advanced performance features like multithreading, GPU acceleration, which were recently available only to native apps. Not to say that browser Javascript engines get virtually times faster by the year. 
+
 
 ## <a id=push-notifications></a> Push notifications
 What are push notifications and how it works
 
-What are the possible ways to do it
+What are the possible ways to do it 
 
 Solutions
 
 ## <a id=monetization></a> Monetization
-What are in-app purchases, strategies of monetization
 
-SOlutions
+Platform and device vendors run app markets to let developers make their apps discoverable and monetizable. Mobile platforms offer several ways for developers to get money from their apps. Since hybrid applications are distributed the same way as native they share monetization techniques.
+
+The simplest way to monetize is to charge for your app to use it forever. Showing ads is also popular, but to mak good money the app needs a lot of downloads. For a magazine and similar types of services that provide content of some kind subscriptions is a viable option. Another popular monetization strategy is in-app purchases. A user could buy a "premium" version of an app, or unlock particular functionality, or buy some kind of tokens or unlock levels (think games).
+
+There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app  the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) will charge you from $200 to $2000 per month depending on your userbase.
 
 ## <a id=testing></a> Testing
 Different amount of devices needed, becuase the web is asshole
 
 ## <a id=updates></a> Maintenance and Updates
-Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).
+Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).  
 
 ## <a id=sources></a> Helpful Sources
 * [Worklight: HTML5, Hybrid or Native Mobile App Development](http://www.worklight.com/assets/files/HTML5,%20Hybrid%20or%20Native%20Mobile%20App%20Development.pdf)

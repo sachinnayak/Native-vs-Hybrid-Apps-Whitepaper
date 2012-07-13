@@ -193,6 +193,8 @@ Different amount of devices needed, becuase the web is asshole
 ## <a id=updates></a> Maintenance and Updates
 Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).  
 
+## <a id=right-approach></a> Choosing the Right Approach
+
 ## <a id=sources></a> Helpful Sources
 * [Worklight: HTML5, Hybrid or Native Mobile App Development](http://www.worklight.com/assets/files/HTML5,%20Hybrid%20or%20Native%20Mobile%20App%20Development.pdf)
 * [Hybrid vs. Native vs. Mobile web comparison chart](http://www.mrc-productivity.com/blog/2012/03/hybrid-vs-native-vs-mobile-web-comparison-chart/)

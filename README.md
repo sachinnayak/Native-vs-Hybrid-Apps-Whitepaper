@@ -188,12 +188,15 @@ The simplest way to monetize is to charge for your app to use it forever. Showin
 There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) will charge you from $200 to $2000 per month depending on your userbase.
 
 ## <a id=testing></a> Testing
-Different amount of devices needed, becuase the web is asshole
+TBD
 
 ## <a id=updates></a> Maintenance and Updates
 Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).  
 
 ## <a id=right-approach></a> Choosing the Right Approach
+There is no winner or loser in this battle. Every approach is suitable for different cases alike every approach solves different problems.
+
+
 
 ## <a id=sources></a> Helpful Sources
 * [Worklight: HTML5, Hybrid or Native Mobile App Development](http://www.worklight.com/assets/files/HTML5,%20Hybrid%20or%20Native%20Mobile%20App%20Development.pdf)

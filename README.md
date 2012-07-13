@@ -1,3 +1,9 @@
+<style>
+table { margin-bottom: .6em }
+th { text-align: left }
+th, td { padding: .6em }
+</style>
+
 # Native vs Hybrid Applications
 
 ## Contents
@@ -39,16 +45,9 @@
 
  Modern mobile devices provide web browsers that are advanced enough to be an engine for applications. Advancements in development of HTML, CSS and Javascript allow to create UI components, access to rich media types, geo-location services and offline availability. Rich websites that looks and behaves like an application and uses these advanced features are often referred to as web applications. A browser bookmark to such a service can be placed on a device homescreen and user will be able to launch it like any other application.
 
-<<<<<<< HEAD
- A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities. 
+A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities. For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
 
- For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
-=======
-A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities.   
-For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
->>>>>>> Sync
-
- PhoneGap is an example of a framework that allows you turn a web app into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
+PhoneGap is an example of a framework that allows you turn a web app into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
 It is sold/accessed through the device’s app store. 
 
 ###<a id=comparison></a>Comparison of different approaches
@@ -138,16 +137,47 @@ Web browsers in general and mobile browsers in particular start to gain advanced
 Push notifications are the messages pushed to a central location server and delivered to the end user. “Notifications are "pushed" by the event producer component (the event "source"), they are not "pulled" by the event consumer component. The producer decides when to send the notification, because it knows about the event before the consumer does.” (Gartner: Hype Cycle for Application Architecture, 2011).
 
 Push notifications are available from Apple iOS 3, Google Android 2.2, RIM BlackBerry 5.5 and Microsoft Windows Phone 7. From the 1000 foot view the principle how push notifications work is the following:
-* As user runs an app on his device it communicates with the notification service server to register the device for receiving notifications 
-* When there is a need to notify user about something application server (backend system/service written in Java, PHP, Ruby, anything else) sends the data (message) to the notification service server
-* Notification service takes care about delivering message to the end user (there's a need to say that all notification services don't guarantee that messages will be delivered)
 
-The main problem with cross-platform push notifications is that it's difficult to integrate all the multiple notification API's for multiple platforms on the both server side and client side (application).
+* As user runs an app on his device it communicates with push notifications service server to register the device for receiving notifications 
+* When there is a need to notify user about something application server (backend system/service written in Java, PHP, Ruby, anything else) sends the data (message) to push notifications service server
+* Push notifications service takes care about delivering message to the end user (there's a need to say that all notification services don't guarantee that messages will be delivered).
 
+<table>
+ <tr>
+   <th> OS
+   <th> Version
+   <th> Push Notifications Service
+   <th> Amount of data per push
+ <tr>
+ <tr>
+ 	<th> Apple iOS </th>
+ 	<td> 3+ </td>
+ 	<td> APN </td>
+ 	<td> 256 bytes </td>
+ </tr>
+ <tr>
+ 	<th> Google Android </th>
+ 	<td> 2.2+ </td>
+ 	<td> C2DM </td>
+ 	<td> 1024 bytes </td>
+ </tr>
+ <tr>
+ 	<th> RIM BlackBerry </th>
+ 	<td> 5.5+  </td>
+ 	<td> BB Push </td>
+ 	<td> 8192 bytes </td>
+ </tr>
+ <tr>
+ 	<th> Microsoft Windows Phone </th>
+ 	<td> 7+ </td>
+ 	<td> MPNS </td>
+ 	<td> 3072 bytes + 1024 bytes for header</td>
+ </tr>
+ </tbody>
+</table>
+The main problem with cross-platform push notifications is that it's very difficult to integrate all the multiple notification API's for multiple platforms on the both server side and client side (hybrid mobile application). When we are talking about native mobile applications for only one platform it's pretty easy, because the only one API will be used on the server side and there is already the infrastructure for "user tapping on the notification" event capturing in the native SDK's and frameworks.
 
-What are the possible ways to do it 
-
-Solutions
+Do not be upset, there are already complete solutions for cross-platform push notifications for hybrid applications (but are not free). For example, [Urban Airship Push Notifications](http://urbanairship.com/products/in-app-purchase/) will cost $200-$2000 per month depending on the count of application users.
 
 ## <a id=monetization></a> Monetization
 
@@ -183,7 +213,3 @@ Two ways: tpl on server and tpl on device (~native updates). But be careful of u
 
 
 
-<style>
-th { text-align: left }
-th, td { padding: .6em }
-</style>

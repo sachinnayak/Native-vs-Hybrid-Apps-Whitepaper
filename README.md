@@ -185,13 +185,26 @@ Platform and device vendors run app markets to let developers make their apps di
 
 The simplest way to monetize is to charge for your app to use it forever. Showing ads is also popular, but to mak good money the app needs a lot of downloads. For a magazine and similar types of services that provide content of some kind subscriptions is a viable option. Another popular monetization strategy is in-app purchases. A user could buy a "premium" version of an app, or unlock particular functionality, or buy some kind of tokens or unlock levels (think games).
 
-There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) will charge you from $200 to $2000 per month depending on your userbase.
+There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app  the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. you will be charged from $200 to $2000 per month for [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) depending on your userbase.
 
 ## <a id=testing></a> Testing
-TBD	
+
+There are almost twice as many mobile phones in the world than there are computers. It's a huge market with its users demanding ever more powerful and functional applications bridging the gap between mobiles and computers.
+
+Keeping up with demand and trends is only half the battle for mobile app developers. They face the huge challenge of testing their application across a multitude of different handsets and OSes. Each handset is slightly different and each has its own little quirks that can not be ignored, and that is before you even contemplate the huge differences from the mobile operating systems.
+
+The inconsistencies between devices lie in the nature of thechnologies they use. Hybrid apps rely on the web browser engines and thus they inherit the cross-browser problems web developers have had forever. You'll encounter similar but OS level problems with native apps, most notably with Android, since it's an open platform and various device vendors customize it (and different versions of it) for their headsets. 
+
+The biggest problem with testing apps is getting access to the devices. Not every company can afford buying 300 various devices like Twitter does. That's why there exist device and browser emulators, as well as services wich will let you run and test your app on real devices remotely. But still nothing can replace testing on a real device.
+
 
 ## <a id=updates></a> Maintenance and Updates
+
+Releasing updates for a native application is rather straightforward, just submit the updated version to the Market and wait for approval in case of an iOS app. Hybrid apps provide more flexibility. The visual templates needed to build UI usually come packed within the application, but can be also retrieved from the web server the app pulls data from. This way themplates can be changed at any time, without the need for user to update or wait for moderator approval. Actually the whole app could be pulled from the web into the native application wrapper wich may be a good solution for some cases. But the architecture has to be well-planned before starting development.
+
+<!--
 Two ways: tpl on server and tpl on device (~native updates). But be careful of using native UI elements in hybrid apps (in cause of server tpls and updates).  
+-->
 
 ## <a id=right-approach></a> Choosing the Right Approach
 There is no winner or loser in this battle. Every approach is suitable for different cases alike every approach solves different problems.
@@ -222,16 +235,5 @@ But it must be highlighted, that together with hybrid application for a lot of p
 * [Native, Hybrid or Web Apps?](http://buildmobile.com/native-hybrid-or-web-apps/)
 * [Hybrid HTML5 Apps Are Less Costly to Develop Than Native](http://www.readwriteweb.com/mobile/2012/01/hybrid-html5-apps-are-more-les.php)
 * [HTML5 vs. Native: The Mobile App Debate](http://www.html5rocks.com/en/mobile/nativedebate/)
-
-
-
-
-
-
- 
-
-
-
-
 
 

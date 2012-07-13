@@ -39,9 +39,14 @@
 
  Modern mobile devices provide web browsers that are advanced enough to be an engine for applications. Advancements in development of HTML, CSS and Javascript allow to create UI components, access to rich media types, geo-location services and offline availability. Rich websites that looks and behaves like an application and uses these advanced features are often referred to as web applications. A browser bookmark to such a service can be placed on a device homescreen and user will be able to launch it like any other application.
 
+<<<<<<< HEAD
  A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities. 
 
  For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
+=======
+A hybrid app is a mix of a native and a web application. Basically it's a webapp wrapped in a platform-specific shell that allows it to be installed just like a native app and access device hardware capabilities.   
+For cross platform reach, developers would need to code the native part separately for each platform but they can use the same HTML5 part across all of them.
+>>>>>>> Sync
 
  PhoneGap is an example of a framework that allows you turn a web app into a native app for iOS, Android, BlackBerry, Windows 7, WebOS, Symbian and more. The hybrid frameworks typically have APIs as well, that allow you to access the device’s hardware and features that are locked out from the browser.
 It is sold/accessed through the device’s app store. 

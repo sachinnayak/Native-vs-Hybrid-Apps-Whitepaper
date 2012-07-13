@@ -209,6 +209,8 @@ Hybrid approach is good for you when:
 
 ![image](http://st.webnotbombs.com/Vdyd+)
 
+[Mobile Application Development Choices](http://st.webnotbombs.com/Vdyd+)
+
 But it must be highlighted, that together with hybrid application for a lot of platforms we get a web application that runs directly from browser. It's a very nice addition for companies that are choosing  hybrid applications as their mobile application strategy, because of difference in the level of app usage frequency, user habits, etc.
 
 

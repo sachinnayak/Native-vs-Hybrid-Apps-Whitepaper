@@ -135,7 +135,15 @@ Web browsers in general and mobile browsers in particular start to gain advanced
 
 
 ## <a id=push-notifications></a> Push notifications
-What are push notifications and how it works
+Push notifications are the messages pushed to a central location server and delivered to the end user. “Notifications are "pushed" by the event producer component (the event "source"), they are not "pulled" by the event consumer component. The producer decides when to send the notification, because it knows about the event before the consumer does.” (Gartner: Hype Cycle for Application Architecture, 2011).
+
+Push notifications are available from Apple iOS 3, Google Android 2.2, RIM BlackBerry 5.5 and Microsoft Windows Phone 7. From the 1000 foot view the principle how push notifications work is the following:
+* As user runs an app on his device it communicates with the notification service server to register the device for receiving notifications 
+* When there is a need to notify user about something application server (backend system/service written in Java, PHP, Ruby, anything else) sends the data (message) to the notification service server
+* Notification service takes care about delivering message to the end user (there's a need to say that all notification services don't guarantee that messages will be delivered)
+
+The main problem with cross-platform push notifications is that it's difficult to integrate all the multiple notification API's for multiple platforms on the both server side and client side (application).
+
 
 What are the possible ways to do it 
 
@@ -147,7 +155,7 @@ Platform and device vendors run app markets to let developers make their apps di
 
 The simplest way to monetize is to charge for your app to use it forever. Showing ads is also popular, but to mak good money the app needs a lot of downloads. For a magazine and similar types of services that provide content of some kind subscriptions is a viable option. Another popular monetization strategy is in-app purchases. A user could buy a "premium" version of an app, or unlock particular functionality, or buy some kind of tokens or unlock levels (think games).
 
-There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app  the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) will charge you from $200 to $2000 per month depending on your userbase.
+There's a problem with in-app purchases that it's not easy to integrate them in multiple platforms simultaneously. When building a native app the standard codes necessary for integration with app stores is provided by platform development kits, while for hybrid apps those are not directly usable and external solutions are necessary. Luckily they are available, but are not free, e.g. [Urban Airship In-App Purchase](http://urbanairship.com/products/in-app-purchase/) will charge you from $200 to $2000 per month depending on your userbase.
 
 ## <a id=testing></a> Testing
 Different amount of devices needed, becuase the web is asshole

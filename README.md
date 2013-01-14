@@ -1,8 +1,3 @@
-<style>
-table { margin-bottom: .6em }
-th { text-align: left }
-th, td { padding: .6em }
-</style>
 
 # Native vs Hybrid Applications
 
